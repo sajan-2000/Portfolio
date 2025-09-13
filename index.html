@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="./portfolio.css">
+    <script src="./portfolio.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="top">
+        <nav>
+              <h2>Portfo<span>lio</span></h2>
+
+              <ul type="none">
+                <li><a href="">Home</a></li>
+                <li><a href="#about-me">About</a></li>
+                <li><a href="#my-service">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#actualContact">Contact</a></li>
+              </ul>
+        </nav>
+
+        <div class="content">
+            <h4>Hello, my name is</h4>
+            <h1>Sajan Ku<span>mar Swain</span></h1>
+            <p>I'm a Software Engineer and an ardent learner who is always creating and learning
+                awesome stuff.Let's start scrolling and learn  more about me.
+            </p>
+            <form class="form1">
+                <input type="email" id="mail" name="mail" placeholder="Enter Your Email">
+                <input type="submit" id="submit1" value="let's start">
+            </form>
+        </div>
+    </div>
+
+    <!------------------------- About Section ----------------------->
+
+    <section class="about" id="about-me">
+     <div class="main">
+        <div class="my-about-img">
+            <img src="../Photos/IMG_4406.jpg" alt="">
+        </div>
+        
+        <div class="about-texts">
+            <h2>About me</h2>
+            <h5>Software Eng<span>ineer</span></h5>
+            <p>I am passionate about software development, building robust and scalable applications that solve real-world problems. My expertise spans across designing, developing, and maintaining software solutions using modern technologies. I enjoy collaborating with teams, learning new tools, and continuously improving my skills to deliver high-quality products that make a difference.</p>
+            <button type="button">Let's Talk</button>
+        </div>
+     </div>
+    </section>
+
+    <!----------------------------------------my service----------------------------------->
+
+    <div class="service" id="my-service">
+        
+            <h2 class="heading-service">my projects</h2>
+       
+
+        <div class="box">
+            <div class="card">
+                <i class="fa-solid fa-note-sticky"></i>
+                <h5>Fundo Notes</h5>
+                <div class="para">
+                    <p>A feature-rich note-taking application with support for reminders, labels, and collaboration. Built for productivity and ease of use.</p>
+                    <p>
+                        <a class="button" href="#">View</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-book"></i>
+                <h5>Knowledge Base</h5>
+                <div class="para">
+                    <p>A centralized platform for storing, organizing, and searching information. Designed to help teams share and access knowledge efficiently.</p>
+                    <p>
+                        <a class="button" href="#">View</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-database"></i>
+                <h5>Connect DB</h5>
+                <div class="para">
+                    <p>An AI-powered SQL generator that creates queries and fetches records from databases using natural language processing (NLP). Simplifies database interaction for users by translating plain English requests into SQL commands.</p>
+                    <p>
+                        <a class="button" href="#">View</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+<!---------------------------------------------Skills--------------------------------------->
+<section class="my-skills" id="skills">
+
+<h2 class="heading-service">My Skills</h2>
+
+<main class="skill-contaier">
+    <div class="skill-boxes" id="skill-box1">
+        <i id="html-logo" class="fa-brands fa-html5"></i>
+        <p>HTML</p>
+    </div>
+
+    <div class="skill-boxes" id="skill-box2">
+        <i class="fa-brands fa-css3-alt"></i>
+         <p>CSS</p>
+    </div>
+
+    <div class="skill-boxes" id="skill-box3">
+        <i class="fa-brands fa-square-js"></i>
+        <p>JavaScript</p>
+    </div>
+
+    <div class="skill-boxes" id="skill-box4">
+        <i class="fa-solid fa-database"></i>
+        <p>SQL</p>
+    </div>
+</main>
+
+</section>
+
+
+<!---------------------------------------------Contact me-------------------------------------->
+
+<div class="contact-me">
+    <p>Let Me Get You A Beautiful Website.</p>
+    <a href="">Hire Me</a>
+</div>
+
+<!---------------------------------------------Contact--------------------------------------->
+
+<section class="contact2" id="actualContact">
+    <h2 id="contactHeading">Contact</h2>
+    <div class="numberDetails">
+        <div class="phoNo">
+        <i class="fa-solid fa-phone"></i>
+        <span>+91 8327705331</span>
+    </div>
+    <div class="mail">
+        <i class="fa-regular fa-envelope"></i>
+        <span>sajankumarswain6@gmail.com</span>
+    </div>
+    <div class="location">
+        <i class="fa-solid fa-location-dot"></i>
+        <span>Bengaluru,India</span>
+    </div>
+    </div>
+
+    <div class="textInput">
+     <input type="text" placeholder="Name">
+     <input type="mail" placeholder="Email">
+     <textarea placeholder="Message" required rows="5"></textarea>
+    <button type="submit" class="contactSubmitBtn">Send</button>
+    </div>
+</section>
+<!-----------------------------------------Footer------------------------------------>
+<footer>
+    <div class="endsection">
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-github"></i></a>
+    </div>
+</footer>
+
+<!-----------------------------------------Scroll Btn--------------------------------->
+<a href="#" class="scrollBtn"><i class="fa-solid fa-arrow-up"></i></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
